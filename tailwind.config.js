@@ -4,6 +4,9 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      'syne': ['Syne Mono'],
+    },
     extend: {
       colors: {},
     },
@@ -11,3 +14,4 @@ module.exports = {
   variants: {},
   plugins: [require("@tailwindcss/typography")],
 };
+

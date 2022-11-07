@@ -20,7 +20,7 @@ link: https://www.google.ie
       <h1 class="text-2xl mr-2">{{city}}</h1>
       <h2 class="text-2xl mr-2 mb-2">{{venue}}</h2>
   </div>
-  <!--div class="col-span-2 sm:col-span-2 relative">
+  <div class="col-span-2 sm:col-span-2 relative">
         <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><a href="{{link}}" class="bg-red-800 text-white py-1 px-2 rounded animate-pulse">{{buttontext}}</a></button>
-  </div-->
+  </div>
 </div>
