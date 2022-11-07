@@ -1,60 +1,29 @@
 ---
-title: This is my first post
-description: Capitalize on low hanging fruit to identify a ballpark value added
-  activity to beta test. Override the digital divide with additional
-  clickthroughs from DevOps.
-author: Surjith S M
-date: 2020-09-01
-tags:
-  - left
-  - center
-  - right
+day: MON
+month-date: DEC O7
+year: 2022
+city: Dublin, IE
+venue: Whelansgfds's
+button-text: Tickets
+link: https://www.google.ie
 ---
-# This is a Heading h1
 
-## This is a Heading h2
+<div class=" w-full grid grid-cols-10 sm:grid-cols-8 bg-gray-200">
+  <div class="relative bg-gray-800  rounded-md text-center m-2 col-span-2 sm:col-span-2">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <p class="text-white">{{day}}</p>
+      <h2 class="  text-white font-bold text-lg ">{{month-date}}</h2>
+      <p class="text-white">{{year}}</p>
+    </div>
+  </div>
+  <div class="py-6 px-0 sm:p-4 col-span-6 sm:col-span-4 text-gray-800 flex-col sm:flex justify-start">
+      <h1 class="text-2xl mr-2">{{city}}</h1>
+      <h2 class="text-2xl mr-2 mb-2">{{venue}}</h2>
+  </div>
+  <div class="col-span-2 sm:col-span-2 relative">
+        <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><a href="{{link}}" 
+            class="bg-red-800 text-white py-1 px-2 rounded animate-pulse">{{button-text}}</a></button>
+  </div>
+</div>
 
-###### This is a Heading h6
 
-## Emphasis
-
-*This text will be italic*\
-*This will also be italic*
-
-**This text will be bold**\
-**This will also be bold**
-
-*You **can** combine them*
-
-## Lists
-
-### Unordered
-
-* Item 1
-* Item 2
-
-  * Item 2a
-  * Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-   1. Item 3a
-   2. Item 3b
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
-> > Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Inline code
-
-This web site is using `markedjs/marked`.

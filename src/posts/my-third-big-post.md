@@ -1,119 +1,27 @@
 ---
-title: This is my third post
-description: Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-date: 2020-09-03
-author: Surjith S M
-tags:
-  - second-tag
+day: MON
+month-date: DEC O7
+year: 2022
+city: Dublin, IE
+venue: Whelansgfds's
+button-text: Tickets
+link: https://www.google.ie
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## h2 Heading
-
-### h3 Heading
-
-#### h4 Heading
-
-##### h5 Heading
-
-###### h6 Heading
-
-## Horizontal Rules
-
----
-
-## Emphasis
-
-**This is bold text**
-
-**This is bold text**
-
-_This is italic text_
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-
-## Lists
-
-Unordered
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
+<div class=" w-full grid grid-cols-10 sm:grid-cols-8 bg-gray-200">
+  <div class="relative bg-gray-800  rounded-md text-center m-2 col-span-2 sm:col-span-2">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <p class="text-white">{{day}}</p>
+      <h2 class="  text-white font-bold text-lg ">{{month-date}}</h2>
+      <p class="text-white">{{year}}</p>
+    </div>
+  </div>
+  <div class="py-6 px-0 sm:p-4 col-span-6 sm:col-span-4 text-gray-800 flex-col sm:flex justify-start">
+      <h1 class="text-2xl mr-2">{{city}}</h1>
+      <h2 class="text-2xl mr-2 mb-2">{{venue}}</h2>
+  </div>
+  <div class="col-span-2 sm:col-span-2 relative">
+        <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"><a href="{{link}}" 
+            class="bg-red-800 text-white py-1 px-2 rounded animate-pulse">{{button-text}}</a></button>
+  </div>
+</div>
