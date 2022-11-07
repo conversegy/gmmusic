@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "netlify-cms-widget-richtext": "^0.1.5",
     "postcss": "^8.4.5"
   }
 }

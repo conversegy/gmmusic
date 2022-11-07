@@ -19,11 +19,15 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Day-3-Letters", name: "day", widget: "string" }
+      - { label: "Month-Day", name: "month-date", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "City/Town", name: "city", widget: "string" }
+      - { label: "Venue", name: "venue", widget: "string" }
+      - { label: "Button", name: "button-text", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "date", name: "date", widget: "datetime" }
+  
       - widget: select
         label: "tags"
         name: "tags"
