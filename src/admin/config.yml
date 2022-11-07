@@ -21,11 +21,11 @@ collections:
     fields:
       - { label: "date", name: "date", widget: "datetime", default: "DD:MM:YYYY", date_format: "DD.MM.YYYY" }
       - { label: "Day-3-Letters", name: "day", widget: "string" }
-      - { label: "Month-Day", name: "month-date", widget: "string" }
+      - { label: "Month-Day", name: "monthdate", widget: "string" }
       - { label: "Year", name: "year", widget: "string" }
       - { label: "City/Town", name: "city", widget: "string" }
       - { label: "Venue", name: "venue", widget: "string" }
-      - { label: "Button", name: "button-text", widget: "string" }
+      - { label: "Button", name: "buttontext", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
   - label: "Settings"
     name: "settings"
