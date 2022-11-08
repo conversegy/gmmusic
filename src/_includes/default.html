@@ -37,14 +37,14 @@
       </style>
     {% endif %}
   </head>
-  <body class="font-syne bg-white">
+  <body class="font-syne bg-black">
     {% include "./partials/navbar.html" %}
 
     {{ content | safe }}
 
     {% include "./partials/footer.html" %}
 
-    <script src="/static/js/alpine.js"></script>
+    <script src="/static/js/main.js"></script>
 
     {% if path == "home" %}
       <!-- Netlify Identity Widget -->
