@@ -1,10 +1,14 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Tour
+  - text: HOME
+    url: "/"
+  - text: SHOP
+    url: "/shop"
+  - text: ABOUT
+    url: "/about"
+  - text: TOUR
     url: "/tour"
+  - text: THE RISING SONS
+    url: "/the-rising-sons"
+  - text: CONTACT
+    url: "/about#contact"
