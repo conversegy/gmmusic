@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Your Custom CSS Goes here*/
 
 * { border: 1px solid blue; }
+
 
 .youtube-player {
   position: relative;
