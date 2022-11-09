@@ -9,9 +9,9 @@ path: home
 
 <header>
   <div class="min-h-screen flex">
-    <div class="flex flex-col flex-grow bg-black">
+    <div class="flex flex-col flex-grow z-1000 bg-black">
       <!-- NAV-->
-      <nav class="fixed top-0 flex flex-wrap items-center justify-between w-full px-6 py-2 sm:py-4 bg-black"
+      <nav class="fixed top-0 flex flex-wrap items-center justify-between w-full px-6 py-2 sm:py-4 bg-black transition ease-in-out delay-3000"
         id="navbar">
         <!--Logo Top Left-->
         <div class="items-center flex-shrink-0 mr-6 text-white">
@@ -62,7 +62,7 @@ path: home
           <!-- Nav Social Icons-->
           {% include "./_includes/partials/nav-social-links.html" %}
         </div>
-     
+
       </nav>
 
     <!--Hero Section-->

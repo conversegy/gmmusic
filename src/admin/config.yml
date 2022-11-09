@@ -12,8 +12,8 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Gigs"
-    name: "gigs"
+  - label: "Posts"
+    name: "posts"
     folder: "src/posts"
     create: true
     editor:

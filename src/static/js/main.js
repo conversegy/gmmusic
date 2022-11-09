@@ -3,19 +3,17 @@ document.getElementById('nav-toggle').onclick = function () {
     document.getElementById("nav-content").classList.toggle("hidden");
   }
 
-/*  window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    document.getElementById("navbar").style.padding = "4px 15px";
-    document.getElementById("navbar").style.opacity = "1";
-
-   
-  } else {
-    document.getElementById("navbar").style.padding = "15px 15px";
-
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+      document.getElementById("navbar").style.zIndex = "500";
+    } else {
+      document.getElementById("navbar").style.top = "-75px";
+    }
+    prevScrollpos = currentScrollPos;
   }
-}
   
   //* Menu on scroll
   /*var prevScrollpos = window.pageYOffset;
