@@ -28,3 +28,16 @@ collections:
       - { label: "Button", name: "buttontext", widget: "string" }
       - { label: "Link", name: "link", widget: "string" }
 
+  - label: "Bandmembers"
+    name: "bandmembers"
+    folder: "src/the-band-members"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image", choose_url: false, media_library: , config: , multiple: false }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Date", name: "date", widget: "datetime", default: "DD:MM:YYYY", date_format: "DD.MM.YYYY" } 
+    
+

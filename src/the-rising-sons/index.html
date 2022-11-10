@@ -212,6 +212,22 @@ path: the-rising-sons
       </div>
   </section>
 
+  <section>
+
+    {% set bandlist = collections.bandmembers %}
+
+    {% for post in bandlist %}
+
+  <div class="flex flex-col items-center pb-10 mx-auto mb-10 md:w-3/5">
+          
+    <img loading="lazy" src="{{post.data.image}}" alt="David Brown - This Rising Sons" class="rounded-full mb-4">
+    
+        <h2 class="mb-2 text-3xl font-medium text-white title-font">{{post.data.name}}</h2>
+        <p class="text-2xl leading-relaxed text-left mb-4"> {{post.data.bio}}</p>
+</div>
+
+</section>
+
     <!--Youtube-->
     <div class="max-w-screen-md mx-auto mb-8 lg:mb-16">
         <h2 class="mb-4 text-4xl font-extrabold text-center tracking-tight text-white">Watch The Rising Sons Live</h2>
