@@ -1,0 +1,6 @@
+Sitemap: https://georgemurphymusic.com/sitemap.xml
+
+User-agent: *
+Disallow: /posts/
+Disallow: /admin/
+Disallow: /thanks/
