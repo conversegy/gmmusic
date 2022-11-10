@@ -50,6 +50,7 @@ function labnolIframe(div) {
       div.setAttribute('data-id', videoId);
       var thumbNode = document.createElement('img');
       thumbNode.src = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
+      thumbNode.alt = "Click to play video";
       div.appendChild(thumbNode);
       var playButton = document.createElement('div');
       playButton.setAttribute('class', 'play');
