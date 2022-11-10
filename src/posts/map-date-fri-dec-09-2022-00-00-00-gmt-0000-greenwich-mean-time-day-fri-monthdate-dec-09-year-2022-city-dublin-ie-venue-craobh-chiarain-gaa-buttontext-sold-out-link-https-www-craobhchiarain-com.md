@@ -5,6 +5,6 @@ monthdate: DEC 09
 year: "2022"
 city: Dublin, IE
 venue: "Craobh Chiarain GAA "
-buttontext: Sold-Out
+buttontext: SoldOut
 link: https://www.craobhchiarain.com/
 ---
