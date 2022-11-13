@@ -19,12 +19,13 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "date", name: "date", widget: "datetime", default: "DD:MM:YYYY", date_format: "DD.MM.YYYY" }
-      - { label: "Day-3-Letters", name: "day", widget: "string" }
-      - { label: "Month-Day", name: "monthdate", widget: "string" }
-      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Title - So you know which post is which", name: "title", widget: "string"}
+      - { label: "Date of the gig - This is used to put them in the correct order on the site", name: "date", widget: "datetime", default: "DD:MM:YYYY", date_format: "DD.MM.YYYY" }
+      - { label: "Day-3-Letters FRI, MON, TUE", name: "day", widget: "string" }
+      - { label: "Month-Day JAN 03, DEC 18", name: "monthdate", widget: "string" }
+      - { label: "Year 2022, 2023", name: "year", widget: "string" }
       - { label: "City/Town", name: "city", widget: "string" }
       - { label: "Venue", name: "venue", widget: "string" }
-      - { label: "Button", name: "buttontext", widget: "string" }
-      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Button - The text that appears on the red button. Tickets/SoldOut", name: "buttontext", widget: "string" }
+      - { label: "Link - The url the button goes to. https://...", name: "link", widget: "string" }
 

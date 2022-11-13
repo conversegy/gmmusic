@@ -1,4 +1,5 @@
 ---
+title: Four Provinces Nov 24
 date: 2022-11-24T00:00:00.000Z
 day: THU
 monthdate: NOV 24

@@ -1,4 +1,5 @@
 ---
+title: Whelans Nov 18
 date: 2022-11-18T00:00:00.000Z
 day: FRI
 monthdate: NOV 18

@@ -1,4 +1,5 @@
 ---
+title: Wexford, Dec 2nd
 date: 2022-12-02T00:00:00.000Z
 day: FRI
 monthdate: DEC 02
@@ -8,3 +9,4 @@ venue: Presentation Arts Centre
 buttontext: Tickets
 link: https://wexfordartscentre.ticketsolve.com/ticketbooth/shows/873629641
 ---
+

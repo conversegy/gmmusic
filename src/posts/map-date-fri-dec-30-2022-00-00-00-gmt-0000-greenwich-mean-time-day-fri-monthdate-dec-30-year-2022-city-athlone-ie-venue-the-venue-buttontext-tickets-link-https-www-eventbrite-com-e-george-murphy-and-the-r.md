@@ -1,4 +1,5 @@
 ---
+title: Athlone, Dec 30
 date: 2022-12-30T00:00:00.000Z
 day: FRI
 monthdate: DEC 30
