@@ -1,6 +1,6 @@
 ---
 title: SeaChurch, Dec 17
-date: 2022-12-16T00:00:00.000Z
+date: 2022-12-17T00:00:00.000Z
 day: SAT
 monthdate: DEC 17
 year: "2022"
