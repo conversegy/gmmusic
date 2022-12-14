@@ -1,7 +1,7 @@
 ---
 title: wexford march
 date: 2023-03-16T09:00:00.000Z
-day: FRI
+day: THU
 monthdate: MAR 16
 year: "2023"
 city: WEXFORD
