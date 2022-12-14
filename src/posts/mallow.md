@@ -2,7 +2,7 @@
 title: MALLOW
 date: 2023-02-24T21:00:00.000Z
 day: FRI
-monthdate: FEB
+monthdate: FEB 24
 year: "2023"
 city: MALLOW, CORK
 venue: THE ARCHES
