@@ -1,5 +1,5 @@
 ---
-title: JAN 27TH QUINLANS
+title: QUINLANS
 date: 2023-01-27T21:00:00.000Z
 day: SAT
 monthdate: JAN 27
