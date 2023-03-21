@@ -1,7 +1,7 @@
 ---
 title: Port Laoise
 date: 2023-03-31T20:00:00.000Z
-day: SAT
+day: FRI
 monthdate: MAR 31ST
 year: "2023"
 city: PORT LAOISE
