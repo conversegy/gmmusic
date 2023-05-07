@@ -7,5 +7,5 @@ year: "2023"
 city: "DROGHEDA "
 venue: CRESCENT CONCERT HALL
 buttontext: TICKETS
-link: https://www.eventbrite.com/e/george-murphy-and-the-rising-sons-tickets-523989947037
+link: https://www.universe.com/events/george-murphy-the-rising-sons-tickets-SZW4TC?ref=tm_marketing_shell_event
 ---
