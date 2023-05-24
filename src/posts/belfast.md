@@ -1,11 +1,11 @@
 ---
-title: BELFAST
-date: 2024-02-28T20:00:00.000Z
-day: WED
-monthdate: FEB
+title: DERRY
+date: 2024-04-27T19:00:00.000Z
+day: SAT
+monthdate: APR 27th
 year: "2024"
-city: BELFAST
-venue: ULSTER HALL
+city: "DERRY "
+venue: "MILLENIUM FORUM "
 buttontext: TICKETS
-link: https://www.ulsterhall.co.uk/what-s-on/george-murphy/
+link: https://www.millenniumforum.co.uk/shows/george-murphy-the-rising-sons/
 ---
