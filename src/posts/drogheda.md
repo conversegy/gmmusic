@@ -2,7 +2,7 @@
 title: Drogheda
 date: 2023-07-22T19:00:00.000Z
 day: SAT
-monthdate: JUL 22nd
+monthdate: OCT 27TH
 year: "2023"
 city: "DROGHEDA "
 venue: CRESCENT CONCERT HALL
