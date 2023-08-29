@@ -1,7 +1,7 @@
 ---
 title: Drogheda
 date: 2023-07-22T19:00:00.000Z
-day: SAT
+day: FRI
 monthdate: OCT 27TH
 year: "2023"
 city: "DROGHEDA "
