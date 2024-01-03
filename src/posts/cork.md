@@ -7,5 +7,5 @@ year: "2024"
 city: CORK
 venue: OPERA HOUSE
 buttontext: TICKETS
-link: https://www.corkoperahouse.ie/en-GB/shows/george%20murphy%20and%20the%20rising%20suns/events
+link: https://www.corkoperahouse.ie/whats-on/george-murphy-and-the-rising-sons/
 ---
