@@ -11,7 +11,8 @@ path: home
   <div class="min-h-screen flex">
     <div class="flex flex-col flex-grow z-1000 bg-black">
       <!-- NAV-->
-      <nav class="fixed top-0 z-10 flex flex-wrap items-center justify-between w-full px-6 py-2 sm:py-4 bg-black transition ease-in-out delay-3000"
+      <nav
+        class="fixed top-0 z-10 flex flex-wrap items-center justify-between w-full px-6 py-2 sm:py-4 bg-black transition ease-in-out delay-3000"
         id="navbar">
         <!--Logo Top Left-->
         <div class="items-center flex-shrink-0 mr-6 text-white">
@@ -65,22 +66,21 @@ path: home
 
       </nav>
 
-    <!--Hero Section-->
-    <div class="flex flex-col items-center w-full">
       <!--HERO IMAGE-->
-      <div class="flex w-full p-0 m-0">
-        <img src="static/img/2-George-Murphy-Music-Hero-Mobile.webp" alt="George Murphy Music Offical Website"
-          class="visible md:hidden w-full p-0 m-0 ">
-        <img class="hidden md:inline-flex w-full p-0 m-0 text-gray-900 fill-current"
-          src="static/img/1-George-Murphy-Music-Hero.webp" alt="George Murphy Music Offical Website"> 
+      <div id="heroSection" class="relative w-full">
+        <!-- Existing hero image code -->
+        <img src="static/img/2-George-Murphy-Music-Hero-Mobile-Tour.webp" alt="George Murphy Music Official Website"
+          class="visible md:hidden w-full p-0 m-0">
+        <img src="static/img/1-George-Murphy-Music-Hero-Tour.webp" alt="George Murphy Music Official Website"
+          class="hidden md:inline-flex w-full p-0 m-0 text-gray-900 fill-current opacity-100 transition-opacity duration-1000">
       </div>
-    </div>
-
-    <div class="flex flex-grow flex-col-reverse">
-      <!--Social Links Under Hero-->
-      {% include "./_includes/partials/social-links.html" %}
 
 
+      <div class="flex flex-grow flex-col-reverse">
+        <!--Social Links Under Hero-->
+        {% include "./_includes/partials/social-links.html" %}
+
+      </div>
       <!--Homepage Content-->
       <div class="flex flex-1 justify-center text-center  items-center bg-black mx-auto text-base md:w-3/4">
         <h1 class="text-white text-xl md:text-6xl align-middle flex">George Murphy Official Website</h1>
@@ -106,9 +106,10 @@ path: home
             src="static/img/4-George-Murphy-Offical-CTA.webp"
             class="h-auto max-w-full m-auto align-middle border-none shadow-lg rounded-xl undefined">
           <div class="text-center ">
-            <a href="about/" class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse" 
+            <a href="about/"
+              class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
               alt="Link to George Murphy's bio page">
-                BIO
+              BIO
             </a>
           </div>
         </div>
@@ -120,9 +121,10 @@ path: home
             src="static/img/5-George-Murphy-Dublin-CTA.webp"
             class="h-auto max-w-full m-auto align-middle border-none shadow-lg rounded-xl undefined">
           <div class="text-center ">
-            <a href="shop/" class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
+            <a href="shop/"
+              class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
               alt="Visit George Murphy's Online shop">
-                BUY NOW
+              BUY NOW
             </a>
           </div>
         </div>
@@ -133,7 +135,8 @@ path: home
           <img loading="lazy" alt="George Murphy Live in Dublin" src="static/img/6-George-Murphy-Rising-Sons-CTA.webp"
             class="h-auto max-w-full m-auto align-middle border-none shadow-lg rounded-xl undefined">
           <div class="text-center">
-            <a href="tour/" class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
+            <a href="tour/"
+              class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
               alt="Link to George Murphy Tour page with upcoming gigs and tickets">
               SEE DATES
             </a>
@@ -147,8 +150,9 @@ path: home
             src="static/img/15-George-Murphy-Live-on-stage-Hero1.webp"
             class="h-auto max-w-full m-auto align-middle border-none shadow-lg rounded-xl undefined">
           <div class="text-center ">
-            <a href="the-rising-sons/" class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
-               alt="Meet the full band with a short bio about each member of The Rising Sons">MEET BAND
+            <a href="the-rising-sons/"
+              class="absolute px-3 py-2 text-white -translate-x-1/2 bg-red-600 rounded-md top-3/4 left-1/2 -translate-y-3/4 animate-pulse"
+              alt="Meet the full band with a short bio about each member of The Rising Sons">MEET BAND
             </a>
           </div>
         </div>
@@ -201,3 +205,11 @@ path: home
 </div>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      document.getElementById("upcomingGigsSection").classList.remove("hidden");
+      document.querySelector('.relative.w-full').classList.add('hidden');
+    }, 3000); // Adjust the delay time in milliseconds
+  });
+</script>
