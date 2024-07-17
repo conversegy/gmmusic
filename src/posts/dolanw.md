@@ -1,5 +1,5 @@
 ---
-title: Dolanw
+title: Dolans
 date: 2024-12-15T20:00:00.000Z
 day: SUN
 monthdate: DEC 15TH
