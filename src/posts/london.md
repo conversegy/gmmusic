@@ -7,5 +7,5 @@ year: "2024"
 city: LONDON
 venue: IRISH CULTURAL CENTRE HAMMERSMITH
 buttontext: TICKETS
-link: https://www.eventbrite.ie/e/an-intimate-evening-of-music-with-george-murphy-tickets-854362690807
+link: https://irishculturalcentre.giftpro.co.uk/events/george-murphy-2024/?_gl=1*1dqnxcg*_gcl_au*MTc4ODMyMTY3OC4xNzI0NDE2MTAx
 ---
