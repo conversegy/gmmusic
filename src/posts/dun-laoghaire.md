@@ -7,5 +7,5 @@ year: "2024"
 city: DUN LAOGHAIRE
 venue: WALTERS
 buttontext: TICKETS
-link: https://www.eventbrite.ie/e/an-intimate-evening-of-music-with-george-murphy-tickets-854362690807
+link: https://www.universe.com/events/george-murphy-friends-dun-laoghaire-oct-3-tickets-8G091X
 ---
