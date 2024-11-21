@@ -7,5 +7,5 @@ year: "2025"
 city: DERRY
 venue: "MILLENIUM FORUM "
 buttontext: TICKETS
-link: https://www.eventbrite.ie/e/an-intimate-evening-of-music-with-george-murphy-tickets-854362690807
+link: https://www.millenniumforum.co.uk/shows/george-murphy-the-rising-sons-2/
 ---
