@@ -7,5 +7,5 @@ year: "2025"
 city: "DUBLIN "
 venue: "CIVIC THEATRE "
 buttontext: TICKETS
-link: https://www.eventbrite.ie/e/an-intimate-evening-of-music-with-george-murphy-tickets-854362690807
+link: https://civictheatre.ticketsolve.com/ticketbooth/shows/873650328?_ga=2.147510133.373116573.1730949775-1297464370.1705324621
 ---
